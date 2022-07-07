@@ -7,8 +7,8 @@ const { RegisternewStu, loginStudent, } = require('../controller/studentControll
 
 //get students
 stuRouter.post('/signup',RegisternewStu)
-stuRouter.post('/login', loginStudent)
+stuRouter.post('/login', loginStudent)     //testing
 
 
 module.exports = stuRouter;
-// this is student router
+// this is student router...
