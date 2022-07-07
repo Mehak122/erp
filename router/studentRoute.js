@@ -11,3 +11,4 @@ stuRouter.post('/login', loginStudent)
 
 
 module.exports = stuRouter;
+// this is student router
