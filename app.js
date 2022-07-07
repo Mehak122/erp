@@ -5,14 +5,15 @@ const app = express()
 
 
 const router = require('./router/admin.router.js');
-const empRouter = require ('./router/empRoute.js')
+const empRouter = require ('./router/empRoute.js');
+const stuRouter = require ('./router/studentRoute.js');
 
 
 app.use(express.json());
 
 app.use('/api/admin', router);
 app.use('/api/employee', empRouter);
-
+app.use('/api/student', stuRouter);
 
 
 
